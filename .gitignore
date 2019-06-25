@@ -1,2 +1,3 @@
 tmp.jpg
-.DS_Store
+__pycache__/
+

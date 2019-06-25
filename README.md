@@ -1,5 +1,5 @@
 # Capture Area OCR
-選択範囲を翻訳してくれるやつ
+選択範囲をOCRして翻訳してくれるやつ
 (GNOME環境のみ)
 
 ## 必要なもの
@@ -11,8 +11,8 @@
 [Tesseractのインストール方法](https://github.com/tesseract-ocr/tesseract/wiki)  
 Ubuntuの場合は以下
 ```shell
-sudo apt install tesseract-ocr
-sudo apt install libtesseract-dev
+$ sudo apt install tesseract-ocr
+$ sudo apt install libtesseract-dev
 ```
 
 ## 準備
