@@ -13,8 +13,14 @@ def main():
         sys.exit(1)
     tool = tools[0]
     print("%s を使用します" % (tool.get_name()))
-    lang = tool.get_available_languages()[0]
-    print("使用言語は %s です\n" % (lang))
+    langs = tool.get_available_languages()
+    print("使用可能言語は %s です\n" % (langs))
+
+    args = sys.argv
+    if len(args) < 2:
+        lang = "eng"
+    else:
+        lang = args[1]
 
     print("翻訳したい範囲を選択してください...\n")
     subprocess.run(["gnome-screenshot", "--area", "--file=./tmp.jpg"])

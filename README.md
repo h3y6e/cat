@@ -25,3 +25,4 @@ $ pip install -r requirements.txt
 $ python cat.py
 ```
 マウスカーソルで選択した範囲の英文と，その日本語訳が出力される
+
