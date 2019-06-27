@@ -17,7 +17,7 @@ $ sudo apt install libtesseract-dev
 
 ## 準備
 ```shell
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## 使い方
