@@ -1,5 +1,5 @@
 # cat - Capture Area Translator
-選択範囲をOCRして翻訳してくれる猫
+選択範囲をOCRして翻訳するやつ
 (GNOME環境のみ)
 
 ## 必要なもの
